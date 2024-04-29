@@ -26,6 +26,12 @@ const listaSpesa = [
     "ammorbidente"
 ];
 //Ciclo for da stampare in console
-for (let i = 0; i < listaSpesa.length; i++) {
-    console.log(listaSpesa[i])
+/*for (let i = 0; i < listaSpesa.length; i++) {
+    console.log(listaSpesa[i]);
+}*/
+//Ciclo while per stampare in console
+let i = 0;
+while (i < listaSpesa.length) {
+    console.log(listaSpesa[i]);
+    i++;
 }
