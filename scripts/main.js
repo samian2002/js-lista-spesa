@@ -24,4 +24,8 @@ const listaSpesa = [
     "patatine",
     "spazzolini",
     "ammorbidente"
-]
+];
+//Ciclo for da stampare in console
+for (let i = 0; i < listaSpesa.length; i++) {
+    console.log(listaSpesa[i])
+}
